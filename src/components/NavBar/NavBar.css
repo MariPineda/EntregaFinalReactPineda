@@ -1,16 +1,35 @@
 header{
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    border-bottom: 5px solid lightblue;
+    border: 2px solid #ccc;
+    border-radius: 5px;
 }
+
+header a {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(3, 101, 139, 0.836);
+    margin: 0;
+}
+
+header a:hover{
+    color: rgb(1, 66, 92);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(9, 104, 141, 0.836);
+}
+
 li{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     display: inline-block;
     margin: 15px;
     cursor: pointer;
 }
-li:hover{
-    color:blue;
+
+li a:hover{
+    color: rgb(1, 66, 92);
 }

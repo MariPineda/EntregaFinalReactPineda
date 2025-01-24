@@ -1,0 +1,63 @@
+.cardBook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+}
+
+.cardBook img {
+    width: 8vw;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cardBook .title {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(78, 76, 76);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cardBook .author {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(78, 76, 76);
+    margin-top: 2px;
+}
+.cardBook .price {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: #4f4f4f;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cardBook .id {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.btn {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: rgba(9, 104, 141, 0.836);
+    color:  rgb(235, 230, 230);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(9, 104, 141, 0.993);;
+}
