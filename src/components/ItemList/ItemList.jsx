@@ -2,15 +2,14 @@ import "./ItemList.css";
 import Item from '../Item/Item';
 
 
-const ItemList = ({books}) => {
+const ItemList = ({products}) => {
     return (
         <div className='itemList'>
             {
-                books.map(book => <Item key={book.id} {...book}/>)
+                products.map(product => <Item key={product.id} {...product}/>)
             }
         </div>
     )
 }
 
 export default ItemList
-

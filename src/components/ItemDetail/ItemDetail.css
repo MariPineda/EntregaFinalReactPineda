@@ -32,9 +32,23 @@
     margin-bottom: 20px;
 }
 
-
 .containerItem img {
     width: 20vw;
     object-fit: cover;
     border-radius: 10px 10px 10px 10px;
+}
+
+.end-btn {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:  rgba(9, 104, 141, 0.836);
+    color: rgb(235, 230, 230);
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.end-btn:hover {
+    background-color: rgba(9, 104, 141, 0.993);
 }

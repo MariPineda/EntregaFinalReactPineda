@@ -1,0 +1,44 @@
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+.btn-counter {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(9, 104, 141, 0.836);
+    color: rgb(235, 230, 230);
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.counter-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+    line-height: 50px;
+}
+
+.add-btn {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: rgba(9, 104, 141, 0.836);
+    color:  rgb(235, 230, 230);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+.add-btn :hover {
+    background-color: #3e8e41;
+}

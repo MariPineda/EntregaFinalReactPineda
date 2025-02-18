@@ -46,6 +46,13 @@
     margin-bottom: 5px;
 }
 
+.cardBook .stock {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
 .btn {
     font-family: 'Trebuchet MS', sans-serif;
     background-color: rgba(9, 104, 141, 0.836);
@@ -59,5 +66,5 @@
 }
 
 .btn:hover {
-    background-color: rgba(9, 104, 141, 0.993);;
+    background-color: rgba(9, 104, 141, 0.993);
 }

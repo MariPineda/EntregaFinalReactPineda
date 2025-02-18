@@ -1,0 +1,102 @@
+.checkout-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.checkout-form {
+    margin-top: 20px;
+}
+
+.checkout-product {
+    margin-bottom: 20px;
+}
+
+.checkout-product-name {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(78, 76, 76);
+}
+
+.checkout-product-price {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(78, 76, 76);
+}
+
+.checkout-form-group {
+    margin-bottom: 20px;
+}
+
+.checkout-form-label {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(78, 76, 76);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.checkout-form-input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(78, 76, 76);
+    border: 1px solid #ccc;
+}
+
+.checkout-button {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:  rgba(9, 104, 141, 0.836);
+    color: rgb(235, 230, 230);
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.checkout-button:hover {
+    background-color: rgba(9, 104, 141, 0.993);
+}
+
+.checkout-error {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.checkout-success {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(78, 76, 76);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.get-back-btn{
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:  rgba(9, 104, 141, 0.836);
+    color: rgb(235, 230, 230);
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.get-back-btn:hover {
+    background-color: rgba(9, 104, 141, 0.993);
+}

@@ -1,8 +1,55 @@
-# React + Vite
+# Lumin Tienda de Libros 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 
-Currently, two official plugins are available:
+Aplicación e-commerce moderna desarrollada con React y Vite que utiliza Firebase como backend para gestión de productos y órdenes de compra.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características Principales 🚀
+
+- 📦 Catálogo de productos en tiempo real desde Firestore
+- 🛒 Sistema de carrito de compras persistente
+- ✅ Proceso de checkout con validación de formularios
+- 📤 Almacenamiento de órdenes de compra en Firebase
+- 🔄 Estado global gestionado con Context API
+- ⚡ Rendimiento optimizado con Vite
+
+## Instalación y Configuración ⚙️
+
+### Requisitos Previos
+- Node.js v16+
+- Cuenta de Firebase
+- CLI de Firebase (opcional para despliegue)
+
+### Pasos de Instalación
+1. Clonar repositorio:
+   
+   - git clone https://github.com/MariPineda/EntregaFinalReactPineda.git
+   - cd lumintiendadelibros
+   - npm install 
+   - npm run dev 
+
+## Tecnologías Utilizadas 💻
+
+**Frontend:**
+
+- React 18
+- Vite 4
+- React Router 6
+- **Context API** para gestión de estado
+- **CSS Modules** para estilos
+
+**Backend:**
+
+- **Firebase Firestore** (Base de datos)
+
+**Herramientas:**
+
+- **ESLint** + **Prettier**
+- **GitHub Actions** (CI/CD)
+- **React Testing Library** (Pruebas)
+
+## Licencia 📄
+
+Distribuido bajo la licencia **MIT**. Ver el archivo `LICENSE` para más información.
